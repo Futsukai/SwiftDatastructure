@@ -8,15 +8,30 @@
 
 import Foundation
 
-var testList = LinkedList<Int>()
-testList.addAtHead(val: 1)
-testList.addAtTail(val: 3)
-for i in 0..<100{
-    _ = testList.addAtIndex(index: i, val: i)
+func testOne() {
+    let testList = LinkedList<Int>()
+    testList.addAtHead(val: 1)
+    testList.addAtTail(val: 3)
+    for i in 0..<100{
+        _ = testList.addAtIndex(index: i, val: i)
+    }
+    print(testList)
+    for i in 0..<100{
+        testList.deleteAtIndex(index: i)
+    }
+    print(testList)
 }
-print(testList)
-for i in 0..<100{
-    testList.deleteAtIndex(index: i)
-}
-print(testList)
 
+func testStack() {
+    
+    let stack = Stack<String>()
+    
+    for i in 0..<10 {
+        stack.push(String(i))
+    }
+    print(stack)
+    
+    
+}
+
+testStack()
