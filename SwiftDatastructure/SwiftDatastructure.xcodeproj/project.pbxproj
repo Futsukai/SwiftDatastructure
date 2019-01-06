@@ -10,6 +10,7 @@
 		721DDE42217F892800F64772 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DDE41217F892800F64772 /* main.swift */; };
 		721DDE49217F897200F64772 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DDE48217F897200F64772 /* LinkedList.swift */; };
 		72326F6E21BD41C300F9D2B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72326F6D21BD41C300F9D2B0 /* Stack.swift */; };
+		72D3EA9921E2381500DE83C1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3EA9821E2381500DE83C1 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		721DDE41217F892800F64772 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		721DDE48217F897200F64772 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		72326F6D21BD41C300F9D2B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		72D3EA9821E2381500DE83C1 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				721DDE41217F892800F64772 /* main.swift */,
 				721DDE48217F897200F64772 /* LinkedList.swift */,
 				72326F6D21BD41C300F9D2B0 /* Stack.swift */,
+				72D3EA9821E2381500DE83C1 /* Queue.swift */,
 			);
 			path = SwiftDatastructure;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 				721DDE49217F897200F64772 /* LinkedList.swift in Sources */,
 				72326F6E21BD41C300F9D2B0 /* Stack.swift in Sources */,
 				721DDE42217F892800F64772 /* main.swift in Sources */,
+				72D3EA9921E2381500DE83C1 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

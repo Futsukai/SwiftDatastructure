@@ -34,4 +34,18 @@ func testStack() {
     
 }
 
-testStack()
+
+
+func testQueue() {
+    
+    let queue = Queue<String>()
+    
+    for i in 0..<10 {
+        queue.enqueue(String(i))
+    }
+    print(queue)
+    
+    
+}
+
+testQueue()
