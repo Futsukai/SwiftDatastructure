@@ -57,6 +57,9 @@ func testLoopQueue() {
     for _ in 0..<6 {
         _  = loopQueue.dequeue()
     }
+    for i in 0..<11 {
+        loopQueue.enqueue(String(i))
+    }
     print(loopQueue)
     
 }

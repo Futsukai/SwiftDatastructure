@@ -91,13 +91,12 @@ class LoopQueue<E>: QueueProtocol {
 extension LoopQueue: CustomStringConvertible{
     var description: String{
         var res = "<Queue: size:\(size) capacity:\(getCapacity())\nfront ["
-        for var i in front..<data.count {
+        var i = front
+        while i != tail {
             res += "\(String(describing: data[i]))"
             i = (i + 1) % data.count
             if  i != tail {
                 res += ","
-            } else {
-                break
             }
         }
         res += "] tail>"
