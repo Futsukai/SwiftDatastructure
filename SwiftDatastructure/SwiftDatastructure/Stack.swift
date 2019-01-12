@@ -17,8 +17,8 @@ protocol StackProtocol {
     func peek() -> E?
 }
 
-class Stack<T>: StackProtocol,CustomDebugStringConvertible {
-    var debugDescription: String{
+class Stack<T>: StackProtocol, CustomStringConvertible {
+    var description: String{
         var res = "Stack: ["
         for (index,value) in arr.enumerated() {
             res += "\(value)"

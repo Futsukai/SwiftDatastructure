@@ -19,9 +19,9 @@ protocol QueueProtocol {
 }
 
 //FIFO 先进先出
-class Queue<T>: QueueProtocol, CustomDebugStringConvertible {
+class Queue<T>: QueueProtocol, CustomStringConvertible {
     
-    var debugDescription: String{
+    var description: String{
         var res = "Queue: front ["
         for (index,value) in array.enumerated() {
             res += "\(value)"

@@ -45,7 +45,20 @@ func testQueue() {
     }
     print(queue)
     
+}
+
+
+func testLoopQueue() {
+    let loopQueue = LoopQueue<String>()
+
+    for i in 0..<11 {
+        loopQueue.enqueue(String(i))
+    }
+    for _ in 0..<6 {
+        _  = loopQueue.dequeue()
+    }
+    print(loopQueue)
     
 }
 
-testQueue()
+testLoopQueue()

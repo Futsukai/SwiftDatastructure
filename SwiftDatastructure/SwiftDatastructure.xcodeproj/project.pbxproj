@@ -10,6 +10,7 @@
 		721DDE42217F892800F64772 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DDE41217F892800F64772 /* main.swift */; };
 		721DDE49217F897200F64772 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721DDE48217F897200F64772 /* LinkedList.swift */; };
 		72326F6E21BD41C300F9D2B0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72326F6D21BD41C300F9D2B0 /* Stack.swift */; };
+		723CC5A621EA3F03009FAD87 /* LoopQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723CC5A521EA3F03009FAD87 /* LoopQueue.swift */; };
 		72D3EA9921E2381500DE83C1 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D3EA9821E2381500DE83C1 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		721DDE41217F892800F64772 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		721DDE48217F897200F64772 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		72326F6D21BD41C300F9D2B0 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		723CC5A521EA3F03009FAD87 /* LoopQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopQueue.swift; sourceTree = "<group>"; };
 		72D3EA9821E2381500DE83C1 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 				721DDE48217F897200F64772 /* LinkedList.swift */,
 				72326F6D21BD41C300F9D2B0 /* Stack.swift */,
 				72D3EA9821E2381500DE83C1 /* Queue.swift */,
+				723CC5A521EA3F03009FAD87 /* LoopQueue.swift */,
 			);
 			path = SwiftDatastructure;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 			files = (
 				721DDE49217F897200F64772 /* LinkedList.swift in Sources */,
 				72326F6E21BD41C300F9D2B0 /* Stack.swift in Sources */,
+				723CC5A621EA3F03009FAD87 /* LoopQueue.swift in Sources */,
 				721DDE42217F892800F64772 /* main.swift in Sources */,
 				72D3EA9921E2381500DE83C1 /* Queue.swift in Sources */,
 			);
